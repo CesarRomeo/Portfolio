@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <section id="skills" className="skills">
       <div className="container">
-        <h2 className="section-title">Habilidades</h2>
+        <h2 className="section-title">Skills</h2>
         
         <div className="skills-grid">
           <div className="skill-category">
@@ -35,7 +35,7 @@ const Skills = () => {
           <div className="skill-category">
             <div className="category-header">
               <span className="category-icon">🛠️</span>
-              <h3 className="category-title">Herramientas</h3>
+              <h3 className="category-title">Tools</h3>
             </div>
             <div className="skill-tags">
               {skills.tools.map((skill, index) => (
@@ -47,7 +47,7 @@ const Skills = () => {
           <div className="skill-category">
             <div className="category-header">
               <span className="category-icon">🌍</span>
-              <h3 className="category-title">Idiomas</h3>
+              <h3 className="category-title">Languages</h3>
             </div>
             <div className="languages-list">
               {skills.languages.map((lang, index) => (

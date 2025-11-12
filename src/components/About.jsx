@@ -5,34 +5,34 @@ const About = () => {
   return (
     <section id="about" className="about">
       <div className="container">
-        <h2 className="section-title">Sobre mí</h2>
+        <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <div className="about-text">
             <p className="about-description">
-              Estoy empezando mi camino en la informática y me encanta todo lo relacionado con el desarrollo web. 
+              I'm starting my journey in computer science and I love everything related to web development.
             </p>
             <p className="about-description">
-              Ya tengo experiencia básica diseñando y creando páginas web aprendida por mi cuenta gracias a videos y proyectos que he hecho por mi cuenta, y en la universidad estoy aprendiendo C y C++ para fortalecer mi base como futuro desarrollador de software.
+              I already have basic experience designing and creating web pages learned on my own through videos and projects I've done independently, and at university I'm learning C and C++ to strengthen my foundation as a future software developer.
             </p>
             <p className="about-description">
-              Me motiva seguir aprendiendo, experimentar con nuevos lenguajes y construir proyectos cada vez más completos.
+              I'm motivated to keep learning, experiment with new languages and build increasingly complete projects.
             </p>
 
             <div className="about-highlights">
               <div className="highlight-item">
                 <div className="highlight-icon">🎯</div>
-                <h3>Enfocado en resultados</h3>
-                <p>Orientado a entregar soluciones de calidad que superen las expectativas</p>
+                <h3>Results-Focused</h3>
+                <p>Oriented to deliver quality solutions that exceed expectations</p>
               </div>
               <div className="highlight-item">
                 <div className="highlight-icon">🚀</div>
-                <h3>Aprendizaje continuo</h3>
-                <p>Siempre explorando nuevas tecnologías y metodologías de desarrollo</p>
+                <h3>Continuous Learning</h3>
+                <p>Always exploring new technologies and development methodologies</p>
               </div>
               <div className="highlight-item">
                 <div className="highlight-icon">🤝</div>
-                <h3>Trabajo en equipo</h3>
-                <p>Colaborativo y comunicativo, con experiencia en metodologías ágiles</p>
+                <h3>Teamwork</h3>
+                <p>Collaborative and communicative, eager to work and learn together</p>
               </div>
             </div>
           </div>

@@ -41,11 +41,11 @@ const Header = () => {
 
         <nav className={`nav ${isMobileMenuOpen ? 'open' : ''}`}>
           <ul className="nav-list">
-            <li><a onClick={() => scrollToSection('hero')}>Inicio</a></li>
-            <li><a onClick={() => scrollToSection('about')}>Sobre mí</a></li>
-            <li><a onClick={() => scrollToSection('experience')}>Experiencia</a></li>
-            <li><a onClick={() => scrollToSection('skills')}>Habilidades</a></li>
-            <li><a onClick={() => scrollToSection('contact')}>Contacto</a></li>
+            <li><a onClick={() => scrollToSection('hero')}>Home</a></li>
+            <li><a onClick={() => scrollToSection('about')}>About</a></li>
+            <li><a onClick={() => scrollToSection('experience')}>Experience</a></li>
+            <li><a onClick={() => scrollToSection('skills')}>Skills</a></li>
+            <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
           </ul>
         </nav>
       </div>

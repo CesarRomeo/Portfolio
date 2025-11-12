@@ -1,62 +1,62 @@
-# Portfolio de Cesar Romeo Macias
+# Cesar Romeo Macias Portfolio
 
-Portfolio personal desarrollado con React y Vite, presentando mi experiencia profesional, formación académica y habilidades técnicas como futuro Ingeniero Informático.
+Personal portfolio developed with React and Vite, showcasing my professional experience, academic background, and technical skills as a future Computer Science Engineer.
 
-## 🚀 Características
+## 🚀 Features
 
-- ✨ Diseño moderno y profesional
-- 📱 Completamente responsive (móvil, tablet y desktop)
-- 🎨 Animaciones suaves y efectos visuales atractivos
-- 🌙 Tema oscuro elegante
-- ⚡ Rendimiento optimizado con Vite
-- 🧩 Componentes modulares y reutilizables
-- 🔄 Navegación suave entre secciones
-- 📧 Formulario de contacto funcional
+- ✨ Modern and professional design
+- 📱 Fully responsive (mobile, tablet and desktop)
+- 🎨 Smooth animations and attractive visual effects
+- 🌙 Elegant dark theme
+- ⚡ Optimized performance with Vite
+- 🧩 Modular and reusable components
+- 🔄 Smooth navigation between sections
+- 📧 Functional contact form
 
-## 📋 Secciones
+## 📋 Sections
 
-- **Hero**: Presentación principal como Futuro Ingeniero Informático
-- **Sobre mí**: Información personal y objetivos profesionales
-- **Experiencia**: Desarrollo freelance de página Social Media con React y Node.js
-- **Formación**: Educación secundaria en Escolapios (España) e Ingeniería Informática en Hochschule Niederrhein (Alemania)
-- **Habilidades**: Stack tecnológico (Frontend, Backend, Herramientas) e idiomas (Español, Inglés, Alemán)
-- **Contacto**: Formulario y datos de contacto
-- **Footer**: Enlaces y redes sociales
+- **Hero**: Main presentation as Future Computer Science Engineer
+- **About Me**: Personal information and professional goals
+- **Experience**: Freelance development of Social Media page with React and Node.js
+- **Education**: Secondary education at Escolapios (Spain) and Computer Science Engineering at Hochschule Niederrhein (Germany)
+- **Skills**: Tech stack (Frontend, Backend, Tools) and languages (Spanish, English, German)
+- **Contact**: Contact form and contact information
+- **Footer**: Links and social networks
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
-### En el Portfolio
-- **React**: Biblioteca de JavaScript para construir interfaces de usuario
-- **Vite**: Herramienta de construcción rápida para desarrollo frontend
-- **JavaScript (ES6+)**: Lenguaje de programación
-- **CSS3**: Estilos personalizados con animaciones y transiciones
-- **HTML5**: Estructura semántica
+### In the Portfolio
+- **React**: JavaScript library for building user interfaces
+- **Vite**: Fast build tool for frontend development
+- **JavaScript (ES6+)**: Programming language
+- **CSS3**: Custom styles with animations and transitions
+- **HTML5**: Semantic structure
 
-### Stack Técnico Personal
+### Personal Tech Stack
 - **Frontend**: React.js, JavaScript, HTML5, CSS3, TypeScript, Tailwind CSS, Bootstrap
 - **Backend**: Node.js
-- **Herramientas**: Git & GitHub, VS Code, CLion
-- **Idiomas**: Español (Nativo), Inglés (B2), Alemán (B2-C1)
+- **Tools**: Git & GitHub, VS Code, CLion
+- **Languages**: Spanish (Native), English (B2), German (B2-C1)
 
-## 📦 Instalación
+## 📦 Installation
 
-1. **Clona el repositorio** (o usa este proyecto)
+1. **Clone the repository** (or use this project)
    ```bash
    cd portfolio-cesar
    ```
 
-2. **Instala las dependencias**
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Inicia el servidor de desarrollo**
+3. **Start the development server**
    ```bash
    npm run dev
    ```
 
-4. **Abre tu navegador**
-   - El proyecto estará disponible en `http://localhost:5173`
+4. **Open your browser**
+   - The project will be available at `http://localhost:5173`
 
 ## 🏗️ Scripts Disponibles
 

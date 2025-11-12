@@ -38,7 +38,7 @@ const Hero = () => {
 
       <div className="hero-content">
         <div className="hero-text">
-          <p className="hero-greeting">¡Hola! 👋 Soy</p>
+          <p className="hero-greeting">Hey! 👋 I'm</p>
           <h1 className="hero-name">{personalInfo.name}</h1>
           <h2 className="hero-title">
             <span className="typing-text">{displayedText}</span>
@@ -48,11 +48,9 @@ const Hero = () => {
 
           <div className="hero-buttons">
             <button className="btn btn-primary" onClick={scrollToContact}>
-              Contáctame
+              Contact Me
             </button>
-            <button className="btn btn-secondary" onClick={scrollToProjects}>
-              Ver Proyectos
-            </button>
+            
           </div>
 
           <div className="hero-social">

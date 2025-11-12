@@ -14,30 +14,30 @@ const Footer = () => {
         <div className="footer-top">
           <div className="footer-brand">
             <h3 className="footer-logo">CR</h3>
-            <p className="footer-tagline">El camino hacia el éxito y el camino hacia el fracaso son prácticamente el mismo.</p>
+            <p className="footer-tagline">The road to success and the road to failure are almost exactly the same.</p>
           </div>
 
           <div className="footer-links">
             <div className="footer-column">
-              <h4>Navegación</h4>
+              <h4>Navigation</h4>
               <ul>
-                <li><a href="#hero">Inicio</a></li>
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#experience">Experiencia</a></li>
-                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
               </ul>
             </div>
 
             <div className="footer-column">
-              <h4>Proyectos</h4>
+              <h4>Projects</h4>
               <ul>
-                <li><a href="#projects">Ver Proyectos</a></li>
+                <li><a href="#projects">View Projects</a></li>
                 <li><a href={personalInfo.github} target="_blank" rel="noopener noreferrer">GitHub</a></li>
               </ul>
             </div>
 
             <div className="footer-column">
-              <h4>Contacto</h4>
+              <h4>Contact</h4>
               <ul>
                 <li><a href={`mailto:${personalInfo.email}`}>Email</a></li>
                 <li><a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
@@ -50,7 +50,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p className="footer-copyright">
-            © {currentYear} {personalInfo.name}. Todos los derechos reservados.
+            © {currentYear} {personalInfo.name}. All rights reserved.
           </p>
           <div className="footer-social">
             <a href={personalInfo.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">

@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <section id="education" className="education">
       <div className="container">
-        <h2 className="section-title">Formación Académica</h2>
+        <h2 className="section-title">Education</h2>
         <div className="education-grid">
           {education.map((edu) => (
             <div key={edu.id} className="education-card">

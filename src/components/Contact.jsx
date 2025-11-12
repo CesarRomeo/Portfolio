@@ -21,8 +21,8 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí podrías integrar con un servicio de email como EmailJS o Formspree
-    setStatus('¡Mensaje enviado! Te contactaré pronto.');
+    // Here you could integrate with an email service like EmailJS or Formspree
+    setStatus('Message sent! I will contact you soon.');
     setTimeout(() => {
       setStatus('');
       setFormData({ name: '', email: '', subject: '', message: '' });
@@ -32,15 +32,15 @@ const Contact = () => {
   return (
     <section id="contact" className="contact">
       <div className="container">
-        <h2 className="section-title">Contáctame</h2>
+        <h2 className="section-title">Contact Me</h2>
         
         <div className="contact-content">
           <div className="contact-info">
-            <h3 className="contact-subtitle">¿Trabajamos juntos?</h3>
+            <h3 className="contact-subtitle">Let's Work Together?</h3>
             <p className="contact-text">
-              Estoy disponible para nuevos proyectos y oportunidades. 
-              No dudes en contactarme si quieres hablar sobre desarrollo web, 
-              colaboraciones o simplemente charlar sobre tecnología.
+              I'm available for new projects and opportunities. 
+              Don't hesitate to contact me if you want to talk about web development, 
+              collaborations or just chat about technology.
             </p>
 
             <div className="contact-details">
@@ -55,7 +55,7 @@ const Contact = () => {
               <div className="contact-item">
                 <div className="contact-icon">📱</div>
                 <div>
-                  <h4>Teléfono</h4>
+                  <h4>Phone</h4>
                   <a href={`tel:${personalInfo.phone}`}>{personalInfo.phone}</a>
                 </div>
               </div>
@@ -63,7 +63,7 @@ const Contact = () => {
               <div className="contact-item">
                 <div className="contact-icon">📍</div>
                 <div>
-                  <h4>Ubicación</h4>
+                  <h4>Location</h4>
                   <p>{personalInfo.location}</p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const Contact = () => {
 
           <form className="contact-form" onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="name">Nombre</label>
+              <label htmlFor="name">Name</label>
               <input
                 type="text"
                 id="name"
@@ -93,7 +93,7 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                placeholder="Tu nombre"
+                placeholder="Your name"
               />
             </div>
 
@@ -106,12 +106,12 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                placeholder="tu@email.com"
+                placeholder="your@email.com"
               />
             </div>
 
             <div className="form-group">
-              <label htmlFor="subject">Asunto</label>
+              <label htmlFor="subject">Subject</label>
               <input
                 type="text"
                 id="subject"
@@ -119,12 +119,12 @@ const Contact = () => {
                 value={formData.subject}
                 onChange={handleChange}
                 required
-                placeholder="Asunto del mensaje"
+                placeholder="Message subject"
               />
             </div>
 
             <div className="form-group">
-              <label htmlFor="message">Mensaje</label>
+              <label htmlFor="message">Message</label>
               <textarea
                 id="message"
                 name="message"
@@ -132,14 +132,14 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 rows="5"
-                placeholder="Tu mensaje..."
+                placeholder="Your message..."
               ></textarea>
             </div>
 
             {status && <div className="form-status">{status}</div>}
 
             <button type="submit" className="btn btn-primary">
-              Enviar Mensaje
+              Send Message
             </button>
           </form>
         </div>

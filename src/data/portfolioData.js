@@ -1,27 +1,27 @@
-// Datos del Portfolio de Cesar Romeo Macias
+// Cesar Romeo Macias Portfolio Data
 
 export const personalInfo = {
   name: "Cesar Romeo Macias",
-  title: "Fúturo Ingeniero Informático",
+  title: "Future Computer Science Engineer",
   email: "romeomacias.cesar@gmail.com",
   phone: "+49 172 6841 669",
-  location: "Alemania",
+  location: "Germany",
   github: "https://github.com/cesarromeo",
   linkedin: "https://www.linkedin.com/in/cesar-romeo-macias-7ab422359/",
-  bio: "Desarrollador en crecimiento con una base sólida en programación y un fuerte interés por aprender y mejorar cada día. Busco oportunidades donde pueda aplicar mis conocimientos, ganar experiencia y aportar al equipo desde el primer día."
+  bio: "Growing developer with a solid foundation in programming and a strong interest in learning and improving every day. I'm looking for opportunities where I can apply my knowledge, gain experience, and contribute to the team from day one."
 };
 
 export const experience = [
   {
     id: 1,
-    position: "Desarrollador Pagina Social Media",
+    position: "Social Media Page Developer",
     company: "Freelancer",
-    location: "Alemania",
-    period: "Julio 2025 - Presente",
+    location: "Germany",
+    period: "July 2025 - Present",
     description: [
-      "Desarrollo de Pagina Social Media con React y Node.js",      
-      "Colaboración con un compañero de la univeridad",
-      "Optimización de rendimiento y mejora de la experiencia de usuario"
+      "Development of Social Media Page with React and Node.js",      
+      "Collaboration with a university colleague",
+      "Performance optimization and user experience improvement"
     ]
   },
   
@@ -30,19 +30,19 @@ export const experience = [
 export const education = [
   {
     id: 1,
-    degree: "Educacion Secundaria",
+    degree: "Secondary Education",
     institution: "Escolapios",
-    location: "España",
+    location: "Spain",
     period: "2005-2020",
-    description: "Educacion desde los 3 a 18 años."
+    description: "Education from age 3 to 18."
   },
   {
     id: 2,
-    degree: "Ingeniería Informática", 
+    degree: "Computer Science Engineering", 
     institution: "Hochschule Niederrhein",
-    location: "Alemania",
-    period: "2025 - Presente",
-    description: "Primer Semestre"
+    location: "Germany",
+    period: "2025 - Present",
+    description: "First Semester"
   },
   
 ];
@@ -67,9 +67,9 @@ export const skills = {
     "CLion"
   ],
   languages: [
-    { language: "Español", level: "Nativo" },
-    { language: "Inglés", level: "B2" },
-    { language: "Alemán", level: "B2-C1" }
+    { language: "Spanish", level: "Native" },
+    { language: "English", level: "B2" },
+    { language: "German", level: "B2-C1" }
   ]
 };
 
